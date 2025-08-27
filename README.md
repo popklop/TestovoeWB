@@ -34,3 +34,34 @@ Topic: TransferData
 Кэш
 Размер LRU кэша: 5 элементов
 Файл кэшированных эндпоинтов: initdata.txt
+
+ Содержание
+Технологии
+
+Структура проекта
+
+Архитектура системы
+
+Установка и запуск
+
+API Endpoints
+
+Взаимодействие компонентов
+
+Технологии
+Backend
+Go 1.23 - основной язык программирования
+Gin - веб-фреймворк
+Pgx - драйвер PostgreSQL
+Sarama - клиент Kafka
+Swagger - документация API
+
+База данных
+PostgreSQL - реляционная база данных
+Таблицы: orders, deliveries, payments, items
+Message Broker
+Apache Kafka - обработка сообщений
+Zookeeper - координация Kafka
+
+Frontend
+HTML5/CSS3/JavaScript - веб-интерфейс
